@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Волкова Виктория | Студент-разработчик</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Шапка с фото -->
+    <header class="header" id="home">
+        <div class="container">
+            <div class="header-content">
+                <div class="photo-wrapper">
+                    <img src="images/volk.jpg" alt="Волкова Виктория" class="profile-photo">
+                    <div class="photo-frame"></div>
+                </div>
+                
+                <div class="header-text">
+                    <h1 class="full-name">
+                        <span class="first-name">Волкова</span>
+                        <span class="last-name">Виктория Александровна</span>
+                    </h1>
+                    
+                    <div class="specialization">
+                        <span class="tag angular">Angular</span>
+                        <span class="tag devops">DevOps</span>
+                        <span class="tag security">Информационная безопасность</span>
+                    </div>
+                    
+                    <p class="slogan">
+                        Создаю надёжные веб-приложения и автоматизирую инфраструктуру. 
+                        <span class="highlight">Умею учиться быстро и решать нетривиальные задачи.</span>
+                    </p>
+                    
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn primary-btn">
+                            <i class="fas fa-code"></i> Смотреть проекты
+                        </a>
+                        <a href="#courses" class="btn secondary-btn">
+                            <i class="fas fa-graduation-cap"></i> Мои курсы
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i> Главная</a></li>
+                <li><a href="#courses" class="nav-link"><i class="fas fa-book"></i> Курсы</a></li>
+                <li><a href="#projects" class="nav-link"><i class="fas fa-project-diagram"></i> Проекты</a></li>
+                <li><a href="#practice" class="nav-link"><i class="fas fa-briefcase"></i> Практика</a></li>
+                <li><a href="#skills" class="nav-link"><i class="fas fa-chart-line"></i> Навыки</a></li>
+                <li><a href="#about" class="nav-link"><i class="fas fa-user"></i> Обо мне</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Основной контент -->
+    <main class="main-content">
+        <!-- Секция: Курсы -->
+       <!-- Секция: Курсы -->
+<!-- Секция: Курсы -->
+<section id="courses" class="section">
+    <div class="container">
+        <h2 class="section-title">
+            <i class="fas fa-certificate"></i> Пройденные курсы и сертификаты
+        </h2>
+        
+        <div class="courses-grid">
+            <!-- Курсы загружаются из JSON через JavaScript -->
+        </div>
+    </div>
+</section>
+    <!-- Секция: Проекты -->
+<section id="projects" class="section dark-section">
+    <div class="container">
+        <h2 class="section-title">
+            <i class="fas fa-code-branch"></i> Мои проекты
+        </h2>
+        
+        <div class="projects-grid">
+            <!-- Проекты загружаются из JSON через JavaScript -->
+        </div>
+    </div>
+</section>
+
+        <!-- Секция: Практика -->
+        <section id="practice" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-briefcase"></i> Производственная практика
+                </h2>
+                <div class="practice-content">
+                    <div class="practice-card">
+                        <div class="practice-header">
+                            <h3>Люберецкий техникум им. Ю.А. Гагарина</h3>
+                            <p class="practice-period">2 декабря - 22 декабря</p>
+                        </div>
+                        <div class="practice-body">
+                            <div class="practice-description">
+                                <p>Прохождение производственной практики в рамках специальности 
+                                "Информационные системы и программирование".</p>
+                                
+                                <h4>Выполненные задачи:</h4>
+                                <ul class="practice-tasks">
+                                    <li>Разработка модуля веб-приложения на Angular</li>
+                                    <li>Работа со вносом данных в систему (документации)</li>
+                                    <li>Тестирование и отладка приложений</li>
+                                </ul>
+                                
+                                <h4>Используемые технологии:</h4>
+                                <div class="practice-tech">
+                                    
+                                    <span class="tech-badge"> TypeScript</span>
+                                    
+                                  
+                                </div>
+                            </div>
+                            
+                            <div class="practice-media">
+                                <div class="practice-image">
+                                    <img src="images/praktika.jpg" alt="Рабочее место на практике">
+                                    <p class="image-caption">Рабочее место разработчика</p>
+                                </div>
+                                <a href="https://vikawood123.github.io/resume/resume.html" class="practice-btn">
+                                    <i class="fas fa-gamepad"></i> Интерактивная новелла о практике
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция: Навыки -->
+        <section id="skills" class="section dark-section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-chart-line"></i> Мои навыки
+                </h2>
+                
+                <div class="skills-container">
+                    <!-- Технические навыки -->
+                    <div class="skills-category">
+                        <h3><i class="fas fa-code"></i> Технические навыки</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">Frontend</span>
+                                    <span class="skill-level">Продвинутый</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                                <div class="skill-tech">
+                                    <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Angular</span>
+                                </div>
+                            </div>
+                            
+                            
+                            
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">Backend</span>
+                                    <span class="skill-level">Базовый</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 60%"></div>
+                                </div>
+                                <div class="skill-tech">
+                                    <span>Node.js</span><span>Python</span><span>SQL</span><span>REST API</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Инструменты -->
+                    <div class="tools-section">
+                        <h3><i class="fas fa-tools"></i> Инструменты и технологии</h3>
+                        <div class="tools-grid">
+                            <div class="tool-item">
+                                <i class="fab fa-git-alt"></i>
+                                <span>Git</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fab fa-docker"></i>
+                                <span>Google</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fab fa-linux"></i>
+                                <span>Linux</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fas fa-cloud"></i>
+                                <span>Yandex Cloud</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fas fa-database"></i>
+                                <span> VS Code </span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fab fa-figma"></i>
+                                <span>Figma</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Soft skills -->
+                    <div class="soft-skills">
+                        <h3><i class="fas fa-users"></i> Soft Skills</h3>
+                        <div class="soft-skills-grid">
+                            <div class="soft-skill">
+                                <i class="fas fa-comments"></i>
+                                <div>
+                                    <h4>Коммуникация</h4>
+                                    <p>Эффективное взаимодействие в команде</p>
+                                </div>
+                            </div>
+                            <div class="soft-skill">
+                                <i class="fas fa-lightbulb"></i>
+                                <div>
+                                    <h4>Решение проблем</h4>
+                                    <p>Аналитический подход к задачам</p>
+                                </div>
+                            </div>
+                            <div class="soft-skill">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <h4>Тайм-менеджмент</h4>
+                                    <p>Соблюдение дедлайнов</p>
+                                </div>
+                            </div>
+                            <div class="soft-skill">
+                                <i class="fas fa-book"></i>
+                                <div>
+                                    <h4>Самообучение</h4>
+                                    <p>Быстрое освоение новых технологий</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция: Обо мне -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-user"></i> Обо мне
+                </h2>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <div class="about-card">
+                            <h3><i class="fas fa-graduation-cap"></i> Образование</h3>
+                            <p>Учусь в <strong>ГБПОУ МО «Люберецкий техникум имени Ю.А. Гагарина»</strong> 
+                            по специальности <strong>09.02.07 «Информационные системы и программирование»</strong>.</p>
+                            <p class="highlight-text">Год окончания: 2027</p>
+                        </div>
+                        
+                        <div class="about-card">
+                            <h3><i class="fas fa-bullseye"></i> Профессиональные цели</h3>
+                            <p>Стремлюсь стать full-stack разработчиком с упором на:</p>
+                            <ul class="goals-list">
+                                <li><i class="fas fa-check-circle"></i> Разработку современных веб-приложений на Angular</li>
+                                <li><i class="fas fa-check-circle"></i> Автоматизацию процессов через DevOps практики</li>
+                                <li><i class="fas fa-check-circle"></i> Обеспечение безопасности IT-инфраструктуры</li>
+                                <li><i class="fas fa-check-circle"></i> Исследование генеративных AI технологий</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="about-card">
+                            <h3><i class="fas fa-heart"></i> Интересы в IT</h3>
+                            <div class="interests-grid">
+                                <div class="interest">
+                                    <i class="fas fa-paint-brush"></i>
+                                    <span>Frontend</span>
+                                </div>
+                                
+                                <div class="interest">
+                                    <i class="fas fa-shield-alt"></i>
+                                    <span>Кибербезопасность</span>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-sidebar">
+                        <div class="contact-card">
+                            <h3><i class="fas fa-paper-plane"></i> Контакты</h3>
+                            <div class="contact-links">
+                                <a href="https://github.com/yourusername" class="contact-link">
+                                    <i class="fab fa-github"></i>
+                                    <span>GitHub</span>
+                                    <small>Проекты и код</small>
+                                </a>
+                                
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="stats-card">
+                            <h3><i class="fas fa-chart-bar"></i> В цифрах</h3>
+                            <div class="stats-grid">
+                                <div class="stat">
+                                    <div class="stat-number">9</div>
+                                    <div class="stat-label">Завершённых курсов</div>
+                                </div>
+                                <div class="stat">
+                                    <div class="stat-number">5+</div>
+                                    <div class="stat-label">Проектов</div>
+                                </div>
+                                <div class="stat">
+                                    <div class="stat-number">9</div>
+                                    <div class="stat-label"> Сертификатов </div>
+                                </div>
+                                <div class="stat">
+                                    <div class="stat-number">∞</div>
+                                    <div class="stat-label">Желания учиться</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Волкова Виктория, ГБПОУ МО «Люберецкий техникум имени Героя Советского Союза, лётчика-космонавта Ю.А. Гагарина»</p>
+            <div class="footer-info">
+                <a href="https://github.com/yourusername/resume" class="footer-link">
+                    <i class="fab fa-github"></i> Репозиторий этого сайта
+                </a>
+                <span class="footer-separator">•</span>
+                <a href="#" class="footer-link">
+                    <i class="fas fa-external-link-alt"></i> GitHub Pages
+                </a>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-vk"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

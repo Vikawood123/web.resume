@@ -1,0 +1,54 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Документооборот в команде",
+      "image": "images/comanda.jpg",
+      "description": "Организация системы документооборота для командной работы с использованием Google Таблиц.",
+      "role": "Аналитик данных",
+      "status": "Завершен",
+      "duration": "1 месяц",
+      "teamSize": 4,
+      "technologies": ["Google Sheets", "Google Forms", "Data Analysis", "Excel Formulas", "Automation", "Data Visualization"],
+      "features": [
+        "Создание структурированных Google Таблиц для учета задач команды",
+        "Оптимизация процессов документооборота (сократили время на 40%)",
+        "Обучение команды работе с новой системой"
+      ],
+      "links": [
+        {
+          "name": "Пример таблицы",
+          "url": "https://docs.google.com/spreadsheets/d/1iHXkQDtqK41iR9Sm_0Sj29xC_GNlMM-k/edit",
+          "icon": "fab fa-google"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Проект для конкурса «Система»",
+      "image": "images/sistema.jpg",
+      "description": "Разработка концепции умной системы управления для конкурса проектов. Включает прототип, документацию и презентацию.",
+      "role": "Участник",
+      "status": "Конкурсный",
+      "duration": "2 месяца",
+      "technologies": ["Google таблицы", "Google презентации"],
+      "features": [
+        "Проектирование идеи",
+        "Создание презентации",
+        "Разработка документации"
+      ],
+      "links": [
+        {
+          "name": "Презентация",
+          "url": "https://docs.google.com/presentation/d/1l7m0apS-ioxgDkgEX4sq_He5WDHZ8DHOifVzCnlr4XM/edit",
+          "icon": "fas fa-file-powerpoint"
+        },
+        {
+          "name": "Документация",
+          "url": "https://docs.google.com/document/d/1wjvcBVbGfBgCiNH1_3iWwW0LeQ_fovK81B7DtjUUM3I/edit",
+          "icon": "fas fa-file-word"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Frontend разработка",
+      "platform": "Яндекс Лицей",
+      "image": "images/cert1.png",
+      "description": "Основы веб-разработки, HTML, CSS, JavaScript, создание адаптивных интерфейсов.",
+      "skills": ["HTML5", "CSS3", "JavaScript", "Адаптивный дизайн"],
+      "certificateUrl": "images/cert1.png",
+      "courseUrl": "https://yandexlyceum.ru"
+    },
+    {
+      "id": 2,
+      "title": "SP | Python: шаг за шагом",
+      "platform": "Яндекс Практикум",
+      "image": "images/cert2.png",
+      "description": "Фундаментальный курс по самому языку. Что даёт: Навыки создания программ, игр и работы с данными. Изучают от основ синтаксиса до объектно-ориентированного программирования.",
+      "skills": ["Python", "ООП", "Алгоритмы", "Структуры данных"],
+      "certificateUrl": "images/cert2.png",
+      "courseUrl": "https://yandexlyceum.ru"
+    },
+    {
+      "id": 3,
+      "title": "Работа с LLM GigaChat",
+      "platform": "СБЕР",
+      "image": "images/cert3.jpg",
+      "description": "Курс учит не просто общаться с ИИ, а эффективно использовать его как инструмент для решения профессиональных и повседневных задач.",
+      "skills": ["GigaChat", "LLM", "Prompt Engineering", "AI"],
+      "certificateUrl": "images/cert3.jpg",
+      "courseUrl": "https://sberuniversity.ru/learning/course/rabota-s-llm-gigachat/"
+    },
+    {
+      "id": 4,
+      "title": "Генеративное искусство",
+      "platform": "СБЕР",
+      "image": "images/cert4.jpg",
+      "description": "Изучение создания художественных произведений с помощью искусственного интеллекта.",
+      "skills": ["Генеративное ИИ", "Искусство", "Kandinsky", "AI Art"],
+      "certificateUrl": "images/cert4.jpg",
+      "courseUrl": "https://sberuniversity.ru/learning/course/generativnoe-iskusstvo/"
+    },
+    {
+      "id": 5,
+      "title": "Айтилогия",
+      "platform": "Айтилогия",
+      "image": "images/cert5.jpg",
+      "description": "Крупный онлайн-университет прикладного программирования и IT-профессий с сильным упором на практику, менторство и трудоустройство.",
+      "skills": ["Frontend", "Backend", "DevOps", "IT Профессии"],
+      "certificateUrl": "images/cert5.jpg",
+      "courseUrl": "https://itlogia.ru/"
+    },
+    {
+      "id": 6,
+      "title": "ALL CUPS",
+      "platform": "all cups",
+      "image": "images/certAll.jpg",
+      "description": "ALL CUPS ИИ 2025 — это «чемпионат мира» по прикладному ИИ в России, где сильнейшие решают актуальные бизнес-задачи, а победители получают признание и карьерные возможности.",
+      "skills": ["AI Competition", "Data Science", "ML", "Бизнес-задачи"],
+      "certificateUrl": "images/certAll.jpg",
+      "courseUrl": "https://cups.online/ru/profile"
+    },
+    {
+      "id": 7,
+      "title": "МТС",
+      "platform": "МТС Университет",
+      "image": "images/MTS.jpg",
+      "description": "Крупный экосистемный образовательный проект от ведущего телеком-оператора, направленный на массовое повышение цифровой грамотности и подготовку IT-специалистов для рынка.",
+      "skills": ["IT Образование", "Цифровая грамотность", "Профориентация", "Телеком"],
+      "certificateUrl": "images/MTS.jpg",
+      "courseUrl": "https://mts-university.ru"
+    },
+    {
+      "id": 8,
+      "title": "VK education",
+      "platform": "VK Образование",
+      "image": "images/education.jpg",
+      "description": "Интенсивный практический курс для подготовки fullstack-разработчиков на Python с нуля до трудоустройства.",
+      "skills": ["Fullstack", "Python", "Django", "Базы данных"],
+      "certificateUrl": "images/education.jpg",
+      "courseUrl": "https://vk.com/education"
+    }
+  ]
+}
