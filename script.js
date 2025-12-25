@@ -216,19 +216,6 @@ class ResumeApp {
                 </div>
             </div>
         `).join('');
-     
-    `;
-    
-    const container = document.querySelector(containerSelector);
-    if (container) {
-        container.insertAdjacentHTML(position, buttonHTML);
-    }
-}
-
-// Использование:
-// addChampionshipButton('.projects-grid', 'beforebegin'); // Перед сеткой
-// addChampionshipButton('.projects-grid', 'afterend'); // После сетки
-// addChampionshipButton('.project-card:last-child', 'afterend'); // После последнего проекта
 
         // Добавляем анимации
         this.animateCards('.project-card');
@@ -331,7 +318,4 @@ class ResumeApp {
 
 // Запуск приложения
 const app = new ResumeApp();
-
 app.init();
-
-
