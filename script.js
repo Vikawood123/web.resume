@@ -168,7 +168,7 @@ class ResumeApp {
                     <img src="${project.image}" alt="${project.title}" class="project-img">
                     <div class="project-overlay">
                         <div class="project-badge">${project.status}</div>
-                        <div class="project-date">2024</div>
+                        <div class="project-date">2025</div>
                     </div>
                 </div>
                 <div class="project-info">
@@ -344,3 +344,4 @@ function addChampionshipButton(containerSelector, position = 'beforeend') {
 const app = new ResumeApp();
 
 app.init();
+
