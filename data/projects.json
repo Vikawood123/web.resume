@@ -1,0 +1,94 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Документооборот в команде",
+      "image": "images/comanda.jpg",
+      "description": "Организация системы документооборота для командной работы с использованием Google Таблиц.",
+      "role": "Аналитик данных",
+      "status": "Завершен",
+      "duration": "1 месяц",
+      "teamSize": 4,
+      "technologies": ["Google Sheets", "Google Forms", "Data Analysis", "Excel Formulas", "Automation", "Data Visualization"],
+      "features": [
+        "Создание структурированных Google Таблиц для учета задач команды",
+        "Оптимизация процессов документооборота (сократили время на 40%)",
+        "Обучение команды работе с новой системой"
+      ],
+      "links": [
+        {
+          "name": "Пример таблицы",
+          "url": "https://docs.google.com/spreadsheets/d/1iHXkQDtqK41iR9Sm_0Sj29xC_GNlMM-k/edit",
+          "icon": "fab fa-google"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Проект для конкурса «Система»",
+      "image": "images/sistema.jpg",
+      "description": "Разработка концепции умной системы управления для конкурса проектов. Включает прототип, документацию и презентацию.",
+      "role": "Участник",
+      "status": "Конкурсный",
+      "duration": "2 месяца",
+      "technologies": ["Google таблицы", "Google презентации"],
+      "features": [
+        "Проектирование идеи",
+        "Создание презентации",
+        "Разработка документации"
+      ],
+      "links": [
+        {
+          "name": "Презентация",
+          "url": "https://docs.google.com/presentation/d/1l7m0apS-ioxgDkgEX4sq_He5WDHZ8DHOifVzCnlr4XM/edit",
+          "icon": "fas fa-file-powerpoint"
+        },
+        {
+          "name": "Документация",
+          "url": "https://docs.google.com/document/d/1wjvcBVbGfBgCiNH1_3iWwW0LeQ_fovK81B7DtjUUM3I/edit",
+          "icon": "fas fa-file-word"
+        }
+      ]
+    }
+    ,
+    {
+      "id": 3,
+      "title": "Django Генератор документов",
+      "image": "images/django_project.jpg",
+      "description": "Веб-приложение на Django с базой данных SQLite для автоматической генерации документов (договоры, акты, счета) по шаблонам из БД.",
+      "role": "Fullstack разработчик",
+      "status": "Завершен",
+      "duration": "3-4 месяца",
+      "teamSize": 1,
+      "technologies": ["Python", "Django", "SQLite"],
+      "features": [
+        "Разработка моделей БД для хранения шаблонов документов и данных клиентов",
+        "Создание форм для ввода данных с валидацией на сервере и клиенте",
+        "Автоматическая генерация PDF документов по шаблонам с подстановкой данных",
+        "Реализация авторизации пользователей с разграничением прав доступа",
+        "История созданных документов с возможностью просмотра и скачивания"
+      ],
+      "links": [
+       
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Laravel CRM с триггерами",
+      "image": "images/laravel_project.jpg",
+      "description": "CRM-система на Laravel с SQLite, использующая хранимые процедуры и триггеры для автоматизации бизнес-логики и отчетности.",
+      "role": "Backend разработчик",
+      "status": "Завершен",
+      "duration": "1 месяц",
+      "teamSize": 2,
+      "technologies": ["PHP", "Laravel", "SQLite", "Триггеры", "REST API", "Blade"],
+      "features": [
+        "Разработка БД с триггерами (авто-обновление статусов заказов, логирование изменений)",
+        "Создание хранимых процедур для формирования сложных отчетов по продажам"
+      ],
+      "links": [
+        
+      ]
+    }
+  ]
+}
